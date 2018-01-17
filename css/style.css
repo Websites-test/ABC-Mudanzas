@@ -227,7 +227,7 @@ a:focus, a:hover {
 /*----*/
 .navbar-brand  a {
     position: absolute;
-    z-index: 9999;
+    z-index: 3;
     left: 5em;
     top: 1.8em;
 }
@@ -1346,3 +1346,20 @@ h2.typoh2{
 }
 /*-- //shortcodes-inner-page --*/
 
+@media(min-width: 768px){
+  .nav-container{
+    width: 240px !important;
+  }
+
+  .list-item{
+    margin: 15px !important;
+    width: auto !important;
+    text-align: left;
+  }
+  .list-item a{
+    font-size: 1.5em !important;
+  }
+  .list-item:hover .fa{
+    transform: none !important;
+  }
+}
