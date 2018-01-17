@@ -251,7 +251,7 @@ a:focus, a:hover {
     left: 22%;
     z-index: 999;
     width: 53%;
-    padding: 0em 1em;
+    padding: 2em 1em;
 	background:rgba(238, 141, 45, 0.70);
 }
 .slider_banner_info h4 {
@@ -277,7 +277,7 @@ a:focus, a:hover {
     color: #ffffff;
     font-size: 1.1em;
     letter-spacing: 1.5px;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     line-height: 2.5em;
 	font-family: 'Roboto', sans-serif;
 }
