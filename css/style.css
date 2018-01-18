@@ -688,6 +688,8 @@ h4.text {
 	background-size:cover;
 	position: relative;
 	font-family: 'Passion One', cursive;
+  background-attachment: fixed;
+  background-position: 50%;
 } 
 .two h3 a {
     color: #fff !important;
